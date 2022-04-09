@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: AbeeZee;
+    text-decoration: none;
+    font-size: 20px;
+}
+body{
+    background-color:#002a37;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+h2{
+    margin-top: 24px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    width: 450px;
+    background-color: #fff;
+    padding: 80px 40px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+}
+input{
+    width: 100%;
+    align-items: center;
+    border-radius: 7px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 10px;
+
+
+}
+#Usuario, #Senha, #Email{
+    align-items: center;
+
+}
+#botao, button:hover{
+    align-items: center;
+    text-align: center;
+    transform: translateY(-2px);
+    
+}
+#button{
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 7px 18px;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 14px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#certinho{
+    margin-left: 87px;
+}
+#linha, p{
+    text-align: center;
+    font-size: 8px;
+}
